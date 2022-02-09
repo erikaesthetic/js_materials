@@ -1,0 +1,16 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height : 300vh;
+  background: black;
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+    max-height: 100vh;
+  }
+}
